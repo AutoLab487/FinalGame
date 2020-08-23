@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/level 5.unity
     guid: 714e10fc95c6acd499bcd5313b05e889
   - enabled: 1
-    path: Assets/Scenes/Regx 1.unity
+    path: Assets/Scenes/Regx3.unity
     guid: 191ee686b054b9e488e8b2e65b9bf22c
   - enabled: 1
     path: Assets/Scenes/Regx2.unity
