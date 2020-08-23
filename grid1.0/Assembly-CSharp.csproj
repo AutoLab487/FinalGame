@@ -63,7 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MainMenuOptions.cs" />
     <Compile Include="Assets\MainMenu_SceneChnge.cs" />
     <Compile Include="Assets\Scripts\Answer.cs" />
     <Compile Include="Assets\Scripts\ButtonPressed.cs" />
