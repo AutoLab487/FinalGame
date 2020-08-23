@@ -7,10 +7,10 @@ public class TimerScript : MonoBehaviour
 {
     public  Image timebar;
     public  GameObject sadEmoji;
-    public float maxtime = 60f;
+    public float maxtime = 30f;
     float timeleft;
     public GameObject GameOverPopUp;
-    public GameObject dfa;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -32,7 +32,7 @@ public class TimerScript : MonoBehaviour
         {
             GameOverPopUp.SetActive(true);
             sadEmoji.SetActive(true);
-            dfa.SetActive(false);
+            
             
             Time.timeScale = 0;
         }

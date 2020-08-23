@@ -8,18 +8,20 @@ public class Answer: MonoBehaviour
     public string value, value1;
     public InputField inputField, inputField1, inputField2, inputField3;
     public GameObject display_text;
-    private bool correct,incorrect, correct1, incorrect1;
+    private bool correct, incorrect, correct1, incorrect1, correct2, incorrect2, correct3, incorrect4;
     public GameObject GameWinpopUp, GameLosepopUp;
 
     public void check()
     {
-        if(inputField.text=="A")
+        if (inputField.text == "A")
         {
             correct = true;
+
         }
         else
         {
             incorrect = true;
+
         }
         value = inputField.text;
         //display_text = inputField.GetComponent<Text>().text = "this " + value + " this is input";
@@ -27,21 +29,25 @@ public class Answer: MonoBehaviour
         if (inputField1.text == "A")
         {
             correct1 = true;
+            
         }
         else
         {
             incorrect1 = true;
+          
         }
-        value1 = inputField1.text;
 
-        //validate();
+
+        value1 = inputField1.text;
+        validate();
     }
 
   
     public void validate()
-    {   if (correct == true && correct1 == true)//(correct && correct1  && correct2 && correct3)
+    {   if (correct == true && correct1==true)//(correct && correct1  && correct2 && correct3)
         {
             //Debug.Log("asdas");
+
             GameWinpopUp.SetActive(true);
 
         }

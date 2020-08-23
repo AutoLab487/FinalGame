@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+
 public class Menue_Controller : MonoBehaviour
 {
     public void MainMen2()
@@ -44,6 +46,12 @@ public class Menue_Controller : MonoBehaviour
     public void RELevel3()
     {
         SceneManager.LoadScene(3);
+    }
+
+    public void MainMenu()
+    {
+
+        SceneManager.LoadScene(1);
     }
 
 
